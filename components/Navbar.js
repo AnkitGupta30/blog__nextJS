@@ -17,7 +17,7 @@ import { usePathname } from "next/navigation";
 
 const Navbar = () => {
   const [progress, setProgress] = useState(0);
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen] = useState(false);
 
   const pathname = usePathname();
   useEffect(() => {
